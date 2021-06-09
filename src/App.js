@@ -90,7 +90,7 @@ class Game extends React.Component {
         'К началу игры';
       return (
         <li key={move}>
-          <botton onClick={() => this.jumpTo(move)}>{desc}</botton>
+          <button onClick={() => this.jumpTo(move)}>{desc}</button>
         </li>
       );
     });
